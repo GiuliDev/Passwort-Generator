@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px black;
+    background: #1b2430
+    
+}
+
+#überschrift {
+    margin-bottom: 20px ;
+    margin-top: 50px;
+}
+
+span {
+    color:#10B981 ;
+}
+
+p {
+    color: #D5D4D8;
+    margin-bottom: 70px 
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #1F2937;
+    height: 650px;
+    width: 950px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-top: 10px;
+    
+}
+
+#containerInhalt{
+    margin-right: 100px;
+    
+    
+}
+
+.btn {
+    width: 191px;
+    height: 42px;
+    padding: 9px 17px;
+    background: yellow;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+#passwortBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 850px;
+    background: rgba(0, 0, 0, 0.164);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.password-feld{
+    width: 360px;
+    height: 37px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+#copyText-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 490px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.copyText{
+   
+    padding: 10px 17px;
+    background: #8c00ff;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid yellow;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+#passwordOne{
+    color: black;
+}
+
+
