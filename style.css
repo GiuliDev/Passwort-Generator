@@ -57,6 +57,11 @@ p {
     border: none;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: orange;
 }
 
 
@@ -99,10 +104,29 @@ p {
     font-size: 16px;
     color: white;
     border: none;
-    border-bottom: 2px solid yellow;
     border-radius: 10px;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.copyText {
+    transition: transform 0.2s ease;
+}
+
+.copyText:active {
+    transform: scale(0.9);
+}
+
+.copied {
+    animation: copiedEffect 0.3s ease;
+}
+
+@keyframes copiedEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
 
 
 #passwordOne{

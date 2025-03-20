@@ -21,4 +21,16 @@ function generatePassword() {
     passwordTwo.textContent = getRandomPassword(passwordLength);
 }
 
+function copyPassword(id, button) {
+    let passwordText = document.getElementById(id).textContent;
+    if (passwordText) {
+        navigator.clipboard.writeText(passwordText).then(() => {
+            button.classList.add("copied"); // Füge Animation hinzu
+            setTimeout(() => {
+                button.classList.remove("copied"); // Entferne sie nach 300ms
+            }, 300);
+        });
+    }
+}
+
 
